@@ -1,0 +1,358 @@
+.list-reset,
+a {
+  text-decoration: none
+}
+
+.btn,
+.btn-up,
+.container {
+  font-size: 16px
+}
+
+.btn,
+.slider-btn {
+  text-align: center
+}
+
+html {
+  box-sizing: border-box
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: inherit
+}
+
+a {
+  color: inherit
+}
+
+img {
+  max-width: 100%
+}
+
+figure,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0
+}
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 0;
+  background-color: #F6F3F3;
+}
+
+.header {
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.container {
+  max-width: 1216px;
+  padding: 0;
+}
+
+.navbar {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: transparent;
+}
+
+.nav-item {
+  padding-right: 33px;
+}
+
+.nav-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #343030;
+}
+
+.form-control {
+  min-width: 296px;
+  padding: 10px 13px 10px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #9F9F9F;
+  border-radius: 0;
+  background-color: transparent;
+  border: 1px solid #E1E1E1;
+}
+
+.form-control:focus {
+  color: #343030;
+  background-color: transparent;
+  border-color: #B5B5B5;
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar-nav {
+  padding-left: 87px;
+}
+
+.btn-dark {
+  padding: 13px 34px 11px 35px;
+  background: #403432;
+  border-radius: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.btn-dark:hover {
+  background: #776763;
+}
+
+.btn.disabled {
+  background: #C1B4B1;
+  opacity: 1;
+  border-color: #C1B4B1;
+}
+
+.btn.basket {
+  background: #5B3A32;
+  pointer-events: none;
+}
+
+.hero__container {
+  padding: 46px 0 45px 0;
+}
+
+.hero__header {
+  text-align: left;
+  margin-bottom: 38px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #343030;
+}
+
+.hero__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.card {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 24px 24px 24px;
+}
+
+.card-title {
+  text-align: left;
+  padding-right: 20px;
+  margin-bottom: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #343030;
+}
+
+.purchase__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  align-self: center;
+}
+
+.price__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-buy {
+  padding: 13px 27px 11px 31px;
+}
+
+.past__price {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  text-decoration-line: line-through;
+  color: #A0A0A0;
+}
+
+
+.now__price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #343030;
+}
+
+.main {
+  margin-bottom: 275px;
+}
+
+.info {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #555555;
+}
+
+.footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #ECEAEA;
+}
+
+.phone {
+  margin-right: 54px;
+
+}
+
+.shadow {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.sold {
+  padding-top: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #343030;
+}
+
+.btn-in-cart {
+  padding: 13px 10px 13px 10px;
+  background: #5B3A32;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: table;
+  transition: opacity 0.3s ease;
+}
+
+.modal-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-container {
+  width: 455px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  transition: all 0.3s ease;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #343030;
+}
+
+.modal-header  {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0;
+  color: #343030;
+}
+
+.modal-body {
+  margin: 20px 0;
+}
+
+.modal-default-button {
+  float: right;
+}
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.modal-text {
+  margin-bottom: 5px;
+  text-align: left;
+}
