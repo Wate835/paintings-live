@@ -356,3 +356,7 @@ body {
   margin-bottom: 5px;
   text-align: left;
 }
+
+.modal__price__wrapper {
+  margin-right: 30px;
+}
